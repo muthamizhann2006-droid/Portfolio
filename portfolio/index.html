@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Muthamizhan <span>Portfolio</span></div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Muthamizhan N</span></h1>
+                <h2>Computer Science Student at Anna University Regional Campus, Coimbatore</h2>
+                <ul class="hero-points custom-list">
+                    <li><i class="fas fa-check-circle"></i> Passionate about building innovative apps</li>
+                    <li><i class="fas fa-check-circle"></i> Eager to discover new technologies</li>
+                    <li><i class="fas fa-check-circle"></i> Looking to collaborate on exciting projects</li>
+                </ul>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <img src="profile.jpeg" alt="Muthamizhan N - Profile" id="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who am I?</h3>
+                    <ul class="about-points custom-list">
+                        <li><i class="fas fa-laptop-code"></i> Solid foundation in programming & software development.
+                        </li>
+                        <li><i class="fas fa-brain"></i> Love solving complex problems through hands-on projects.</li>
+                        <li><i class="fas fa-globe"></i> Constantly exploring new tech trends & architecture.</li>
+                        <li><i class="fas fa-hiking"></i> Enjoy hiking and outdoor activities in my free time.</li>
+                    </ul>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-graduation-cap stat-icon"></i>
+                        <span class="stat-number">8.2</span>
+                        <span class="stat-text">CGPA</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-certificate stat-icon"></i>
+                        <span class="stat-number">2+</span>
+                        <span class="stat-text">Certifications (Python, HTML)</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-trophy stat-icon"></i>
+                        <span class="stat-number">3+</span>
+                        <span class="stat-text">Hackathon Certificates</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="section-header">
+                <h2>My Skills</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-java"></i>
+                    <h3>Java</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web Development</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>App Development</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-stack e-commerce project built for my cloud computing class, featuring user
+                            authentication
+                            and a scalable product database.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Real-time data visualization dashboard built during a weekend hackathon, using complex D3
+                            charts and
+                            fast WebSocket connections.</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>D3.js</span>
+                            <span>Firebase</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Social Media App</h3>
+                        <p>A highly responsive social media app developed as a capstone project with real-time chat
+                            and seamless rich media sharing.</p>
+                        <div class="project-tags">
+                            <span>React Native</span>
+                            <span>GraphQL</span>
+                            <span>AWS</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's connect!</h3>
+                    <ul class="contact-points custom-list">
+                        <li><i class="fas fa-comments"></i> Always open to discuss technology and ideas.</li>
+                        <li><i class="fas fa-handshake"></i> Eager to collaborate on exciting projects.</li>
+                        <li><i class="fas fa-users"></i> Excited to connect with peers and professionals!</li>
+                    </ul>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>muthamizhann2006@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>8838687942</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Anna University Regional Campus, Coimbatore</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/muthamizhann2006-droid" aria-label="GitHub" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                        <a href="http://linkedin.com/in/muthamizhan-natarajan-592829327" aria-label="LinkedIn"
+                            target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" required placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn submit-btn">Send Message <i
+                            class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Student Developer Portfolio. All rights reserved. Built with ❤️ and Code.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
